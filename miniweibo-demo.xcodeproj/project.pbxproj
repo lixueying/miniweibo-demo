@@ -15,6 +15,12 @@
 		3C8E923D2429091800049822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8E923B2429091800049822 /* LaunchScreen.storyboard */; };
 		3C8E92482429091800049822 /* miniweibo_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E92472429091800049822 /* miniweibo_demoTests.swift */; };
 		3C8E92532429091800049822 /* miniweibo_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E92522429091800049822 /* miniweibo_demoUITests.swift */; };
+		3C8E92712429AB2B00049822 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8E92702429AB2B00049822 /* Alamofire.framework */; };
+		3C8E92722429AB2B00049822 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8E92702429AB2B00049822 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C8E92772429DB4B00049822 /* MomentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E92762429DB4B00049822 /* MomentViewModel.swift */; };
+		3C8E927A2429DDE500049822 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E92792429DDE500049822 /* Moment.swift */; };
+		3C8E927C2429DF3100049822 /* Moments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E927B2429DF3100049822 /* Moments.swift */; };
+		3C8E927E2429E28D00049822 /* MomentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E927D2429E28D00049822 /* MomentService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3C8E92732429AB2B00049822 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3C8E92722429AB2B00049822 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3C8E922D2429091600049822 /* miniweibo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "miniweibo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8E92302429091600049822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,11 @@
 		3C8E924E2429091800049822 /* miniweibo-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miniweibo-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8E92522429091800049822 /* miniweibo_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniweibo_demoUITests.swift; sourceTree = "<group>"; };
 		3C8E92542429091800049822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C8E92702429AB2B00049822 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3C8E92762429DB4B00049822 /* MomentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentViewModel.swift; sourceTree = "<group>"; };
+		3C8E92792429DDE500049822 /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		3C8E927B2429DF3100049822 /* Moments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moments.swift; sourceTree = "<group>"; };
+		3C8E927D2429E28D00049822 /* MomentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8E92712429AB2B00049822 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +109,7 @@
 				3C8E92462429091800049822 /* miniweibo-demoTests */,
 				3C8E92512429091800049822 /* miniweibo-demoUITests */,
 				3C8E922E2429091600049822 /* Products */,
+				3C8E926F2429AB2B00049822 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +126,8 @@
 		3C8E922F2429091600049822 /* miniweibo-demo */ = {
 			isa = PBXGroup;
 			children = (
+				3C8E92782429DDD600049822 /* Model */,
+				3C8E92752429DB2200049822 /* ViewModel */,
 				3C8E92302429091600049822 /* AppDelegate.swift */,
 				3C8E92322429091600049822 /* SceneDelegate.swift */,
 				3C8E92342429091600049822 /* ViewController.swift */,
@@ -128,6 +157,32 @@
 			path = "miniweibo-demoUITests";
 			sourceTree = "<group>";
 		};
+		3C8E926F2429AB2B00049822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C8E92702429AB2B00049822 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C8E92752429DB2200049822 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3C8E92762429DB4B00049822 /* MomentViewModel.swift */,
+				3C8E927D2429E28D00049822 /* MomentService.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C8E92782429DDD600049822 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C8E92792429DDE500049822 /* Moment.swift */,
+				3C8E927B2429DF3100049822 /* Moments.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +193,8 @@
 				3C8E92292429091600049822 /* Sources */,
 				3C8E922A2429091600049822 /* Frameworks */,
 				3C8E922B2429091600049822 /* Resources */,
+				3C8E92732429AB2B00049822 /* Embed Frameworks */,
+				3C8E92742429AB3900049822 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,13 +311,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C8E92742429AB3900049822 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C8E92292429091600049822 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8E92772429DB4B00049822 /* MomentViewModel.swift in Sources */,
+				3C8E927C2429DF3100049822 /* Moments.swift in Sources */,
 				3C8E92352429091600049822 /* ViewController.swift in Sources */,
 				3C8E92312429091600049822 /* AppDelegate.swift in Sources */,
+				3C8E927A2429DDE500049822 /* Moment.swift in Sources */,
+				3C8E927E2429E28D00049822 /* MomentService.swift in Sources */,
 				3C8E92332429091600049822 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +518,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "miniweibo-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +540,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "miniweibo-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
