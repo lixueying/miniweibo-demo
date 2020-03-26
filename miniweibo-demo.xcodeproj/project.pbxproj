@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3C8E92312429091600049822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E92302429091600049822 /* AppDelegate.swift */; };
 		3C8E92332429091600049822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E92322429091600049822 /* SceneDelegate.swift */; };
-		3C8E92352429091600049822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E92342429091600049822 /* ViewController.swift */; };
 		3C8E92382429091600049822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8E92362429091600049822 /* Main.storyboard */; };
 		3C8E923A2429091800049822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8E92392429091800049822 /* Assets.xcassets */; };
 		3C8E923D2429091800049822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8E923B2429091800049822 /* LaunchScreen.storyboard */; };
@@ -21,6 +20,7 @@
 		3C8E927A2429DDE500049822 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E92792429DDE500049822 /* Moment.swift */; };
 		3C8E927C2429DF3100049822 /* Moments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E927B2429DF3100049822 /* Moments.swift */; };
 		3C8E927E2429E28D00049822 /* MomentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E927D2429E28D00049822 /* MomentService.swift */; };
+		87E8E35B242CC9E400AD0595 /* WeiboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E8E35A242CC9E400AD0595 /* WeiboViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,6 @@
 		3C8E922D2429091600049822 /* miniweibo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "miniweibo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8E92302429091600049822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C8E92322429091600049822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C8E92342429091600049822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C8E92372429091600049822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C8E92392429091800049822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C8E923C2429091800049822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		3C8E92792429DDE500049822 /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
 		3C8E927B2429DF3100049822 /* Moments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moments.swift; sourceTree = "<group>"; };
 		3C8E927D2429E28D00049822 /* MomentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentService.swift; sourceTree = "<group>"; };
+		87E8E35A242CC9E400AD0595 /* WeiboViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiboViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +126,11 @@
 		3C8E922F2429091600049822 /* miniweibo-demo */ = {
 			isa = PBXGroup;
 			children = (
+				87E8E359242CC9CB00AD0595 /* View */,
 				3C8E92782429DDD600049822 /* Model */,
 				3C8E92752429DB2200049822 /* ViewModel */,
 				3C8E92302429091600049822 /* AppDelegate.swift */,
 				3C8E92322429091600049822 /* SceneDelegate.swift */,
-				3C8E92342429091600049822 /* ViewController.swift */,
 				3C8E92362429091600049822 /* Main.storyboard */,
 				3C8E92392429091800049822 /* Assets.xcassets */,
 				3C8E923B2429091800049822 /* LaunchScreen.storyboard */,
@@ -181,6 +181,14 @@
 				3C8E927B2429DF3100049822 /* Moments.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		87E8E359242CC9CB00AD0595 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87E8E35A242CC9E400AD0595 /* WeiboViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,8 +347,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8E92772429DB4B00049822 /* MomentViewModel.swift in Sources */,
+				87E8E35B242CC9E400AD0595 /* WeiboViewController.swift in Sources */,
 				3C8E927C2429DF3100049822 /* Moments.swift in Sources */,
-				3C8E92352429091600049822 /* ViewController.swift in Sources */,
 				3C8E92312429091600049822 /* AppDelegate.swift in Sources */,
 				3C8E927A2429DDE500049822 /* Moment.swift in Sources */,
 				3C8E927E2429E28D00049822 /* MomentService.swift in Sources */,
