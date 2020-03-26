@@ -31,8 +31,8 @@ class MomentViewModel {
     }
     
 //    // output
-//    private func fetchMoments(completion: @escaping ([Moment]) -> ()) {
-//        self.momentService?.fetchMoments(completion: completion)
+//    private func (completion: @escaping ([Moment]) -> ()) {
+//        self.momentServfetchMomentsice?.fetchMoments(completion: completion)
 //    }
     
     init(momentService: MomentService) {
