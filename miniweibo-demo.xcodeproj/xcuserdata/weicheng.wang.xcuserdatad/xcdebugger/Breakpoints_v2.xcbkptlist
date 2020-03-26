@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C73A72B5-CE79-4D2E-9299-8B69086B3A2C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "446D271A-F347-4358-9C1F-3EDEBAAB94E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "miniweibo-demo/ViewModel/MomentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchMoments()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "446D271A-F347-4358-9C1F-3EDEBAAB94E0 - 53194fa05ed59119"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miniweibo_demo.MomentViewModel.fetchMoments() -&gt; ()"
+                  moduleName = "miniweibo-demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/weicheng.wang/Documents/TW/Training%202020/miniweibo-demo/miniweibo-demo/ViewModel/MomentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  uuid = "446D271A-F347-4358-9C1F-3EDEBAAB94E0 - d789989153364a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;miniweibo_demo.Moment&gt;) -&gt; () in miniweibo_demo.MomentViewModel.fetchMoments() -&gt; ()"
+                  moduleName = "miniweibo-demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/weicheng.wang/Documents/TW/Training%202020/miniweibo-demo/miniweibo-demo/ViewModel/MomentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B7490D6-0E4C-4FE8-BCEF-63D970BB8A5E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "miniweibo-demo/ViewModel/MomentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchMoments()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "684ADADF-FFE4-470B-A567-DB52FAE784FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "miniweibo-demo/ViewModel/MomentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "moments"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
